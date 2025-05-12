@@ -18,7 +18,7 @@ function UserNav() {
         <>
             <div className="box">
                 <div className="leftbox">
-                    <img className="imglogo" src="./public/Images/navlogo.png" alt="img" width={"200px"} height={"100px"} />
+                    <img className="imglogo" src="/Images/navlogo.png" alt="img" width={"200px"} height={"100px"} />
                 </div>
 
                 {/* Navbar part */}
