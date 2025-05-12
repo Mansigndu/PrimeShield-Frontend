@@ -1,0 +1,70 @@
+#text
+{
+    
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.input, .selct
+{
+    border: 1px solid black;
+    margin-left: -1px;
+    margin-top: -1vh;
+    padding: 20px;
+    border-radius: 7px;
+    border: none;
+    outline: 1px solid rgba(0, 0, 0, 0.336);
+}
+.input:hover
+{box-shadow: 1px 1px 5px 1px blue;
+
+}
+.selct:hover
+{box-shadow: 1px 1px 5px 1px blue;
+
+}
+.name
+{
+    color: rgba(0, 0, 0, 0.322);
+}
+.ref
+{
+    color: rgba(0, 0, 0, 0.603);
+}
+.ad-i
+{
+    padding: 25px;
+    border-radius: 7px;
+    margin-left: -1px;
+   
+    border: none;
+    outline: 1px solid rgba(0, 0, 0, 0.336);
+}
+.ad-i:hover
+{
+    box-shadow: 1px 1px 5px 1px blue;
+}
+.long
+{
+  border: none;
+    width: 100%;
+    padding: 50px;
+    margin-left: -15px;
+    border-radius: 7px;
+    border: none;
+    outline: 1px solid rgba(0, 0, 0, 0.336);
+}
+.long:hover
+{
+    box-shadow: 1px 1px 5px 1px blue;
+}
+
+.bbttn
+{
+    width: 20%;
+    margin-left: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}

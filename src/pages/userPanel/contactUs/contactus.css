@@ -1,0 +1,88 @@
+.contactbigbox{
+    height:100vh;
+    width:100%;
+    /* background-color:aqua;  */
+    display: flex;
+    flex-direction: row;
+}
+.leftcontactbox{
+    height:80vh;
+    width:50%;
+    /* background-color: antiquewhite; */
+     margin-top: 5%; 
+    display: flex;
+    flex-direction: column;
+
+}
+.contactp{
+    color:skyblue;
+/* margin-left: 14%; */
+/* margin-top: 3%; */
+}
+
+   
+
+.contactp2{
+    color: rgba(0, 0, 0, 0.733);
+}
+.left1contactbox{
+    /* height:12vh; */
+    width:80%;
+     /* background-color: black;  */
+    /* margin-left:14%; */
+    display: flex;
+    flex-direction: row;
+
+}
+.right1contactbox{
+    height:12vh;
+    width:40%;
+     /* background-color: black;  */
+    margin-left:14% ;
+ 
+    display: flex;
+    flex-direction: column;
+}
+
+.rightcontactbox{
+    height:80vh;
+    width:40%;
+     background-color: rgba(135, 207, 235, 0.253); 
+     margin-top: 5%;
+     border-radius: 30px;
+     margin-left: 5%;
+     display: flex;
+
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-evenly;
+}
+.rightcontactbox input
+{
+  border: none;
+    padding: 20px;
+ margin-left: 61px;
+    border-radius: 30px;
+}
+.rightcontactbox textarea
+{
+margin-top: 3vh;
+   margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.rightcontactbox h3
+
+{
+    font-size: 25px;
+    padding-block: 20px;
+    
+}
+.rightcontactbox button
+{
+padding: 25px 25px;
+border-radius: 30px;
+background-color: blue;
+text-transform: uppercase;
+
+}

@@ -1,0 +1,62 @@
+.UserNavContainer{
+    height:100vh;
+    width:100%;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(240,45,253,1) 100%);
+}
+.box{
+    height:auto;
+    width:100%;
+    background-color:skyblue ;
+    display: flex;
+    flex-direction: row;
+}
+.leftbox{
+    height:auto;
+    width:33%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    
+    /* background-color: antiquewhite; */
+}
+
+.centerbox{
+    height:auto;
+    width:45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: rgb(231, 196, 154); */
+}
+.rightbox{
+    height:auto;
+    width:25%;
+    /* background-color: rgb(231, 231, 164); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: space-evenly;*/
+
+}
+.button1{
+    height: 6vh;
+    width:25%;
+    background-color:rgb(125, 134, 134);
+    border-radius: 20px;
+    
+    line-height: .1vw;
+}
+.button2{
+    height:6vh;
+    width:25%;
+    margin-left: 20px;
+    background-color: rgb(152, 170, 164);
+    border-radius: 20px;
+    
+    line-height: .1vw;
+}
+
+.nav-link:hover{
+    color: red;
+}

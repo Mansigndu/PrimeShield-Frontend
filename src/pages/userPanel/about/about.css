@@ -1,0 +1,150 @@
+
+/* General Styles */
+.aboutContainer {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.aboutheading {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+.aboutheading::before
+{
+    content: '';
+    position: absolute;
+    top: 55px;
+    height: 4px;
+    width: 100px;
+ 
+    background-color: blue;
+}
+
+.aboutbigbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.aboutleftbox {
+    flex: 1;
+    padding: 1rem;
+}
+
+.abouth1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: none;
+   
+    color: black;
+   
+}
+/* #ab-txt
+{
+    border: 2px solid red;
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+} */
+
+.abouttickbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.aboutrightbox img{
+    border-radius: 20px;
+    transition: 0.2s;
+ 
+}
+.aboutrightbox img:hover
+{transform: scale(1.1);
+    transition: 0.2s;
+}
+.abouttickinsde {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex: 1;
+}
+
+.aboutticktext {
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+}
+
+.aboutticktext span {
+    margin-left: 0.5rem;
+}
+
+/* Right box */
+.aboutrightbox {
+    flex: 1;
+    /* background-color: #f0f0f0; */
+    height: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .aboutbigbox {
+        flex-direction: column;
+    }
+
+    .aboutheading {
+        font-size: 2rem;
+    }
+
+    .aboutleftbox {
+        flex: 1;
+        text-align: center;
+    }
+
+    .abouth1 {
+        font-size: 1.75rem;
+    }
+
+    .abouttickbox {
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .abouttickinsde {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .aboutticktext {
+        font-size: 1rem;
+    }
+
+    .aboutticktext span {
+        font-size: 1rem;
+    }
+
+    .aboutrightbox {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .aboutheading {
+        font-size: 1.5rem;
+    }
+
+    .abouth1 {
+        font-size: 1.5rem;
+    }
+
+    .aboutticktext {
+        font-size: 0.9rem;
+    }
+
+    .aboutticktext span {
+        font-size: 1rem;
+    }
+}
+

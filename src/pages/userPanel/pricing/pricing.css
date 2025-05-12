@@ -1,0 +1,60 @@
+.pricingbigbox{
+    height:100vh;
+    width:100%;
+    background-color:white;
+    text-align: center;
+    
+}
+.pricingbox{
+    height:80vh;
+    width:100%;
+     /* background-color: lightblue;  */
+    display:flex;
+    flex-direction: row;
+}
+.leftpricingbox{
+    height:70vh;
+    width:25%;
+    background-color: lightblue; 
+    margin-left: 12%; 
+    text-align: center;
+}
+.centerpricingbox{
+    height:70vh;
+    width:25%;
+    /* margin-left: 7%; */
+    /* background-color: blueviolet; */
+}
+.rightpricingbox{
+    height:70vh;
+    width:25%;
+    margin-right: 7%; 
+     background-color:rgb(192, 216, 224);
+}
+.pricingboxh3{
+    color:rgb(6, 80, 109);
+}
+.leftpricingbigbox{
+    height:50vh;
+    width:100%;
+    /* background-color: ; */
+    margin-top: 35%;
+}
+.centerpricingbigbox{
+    height:50vh;
+    width:100%;
+    /* background-color: ; */
+    margin-top: 35%;
+}
+.rightpricingbigbox{
+    height:50vh;
+    width:100%;
+    /* background-color: ; */
+    margin-top: 35%;
+}
+.pricingbutton{
+    background-color: blue;
+    height:5vh;
+    margin-top: 1%;
+    text-align: center;
+}

@@ -1,0 +1,60 @@
+.bigclient{
+    height:auto;
+    width:100%;
+    /* background-color: aqua; */
+overflow-x: hidden;
+ 
+}
+.client1{
+    text-align: center;
+    color: skyblue;
+}
+.clients2{
+    text-align: center;
+   text-shadow: none;
+    padding-bottom: 110px;
+}
+#bb
+{
+    border: 3px solid red;
+}
+
+.leftclient{
+    height:40vh;
+    width:80%;
+    display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 0.9rem;
+
+padding: 40px;
+padding-top: 50px;
+    margin-left: 20px;
+
+
+}
+#imgg
+{
+  
+    height: 25vh;
+    width: 70%;
+    border-radius: 50%;
+}
+.clientbox1{
+    color:black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.clientbox2{
+    text-align: center;
+}
+
+.centerclient{
+    height:40vh;
+    width:80%;
+    display: flex;
+    flex-direction: row;
+
+}

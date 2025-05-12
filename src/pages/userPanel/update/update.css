@@ -1,0 +1,66 @@
+.Register-container{
+    height: 100vh;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-image: url(/public/images/registerbg.jpg); */
+    /* background-size: cover; */
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.register-form{
+    height:100vh;
+    width:40%;
+    background-color:white;
+    box-shadow: rgb(87, 87, 207);
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+button{
+    background-color: aqua;
+    color: white;
+    border:none;
+    width:40%;
+    height:4vh;
+    font-weight: 500;
+    font-size: large;
+    
+
+}
+button:hover{
+    background-color: darkgrey;
+    border:2px solid brown;
+    color:brown;
+}
+
+label{
+    display:flex;
+    align-self: self-start;
+    margin-left: 40px;
+    margin-bottom: -10px;
+}
+input{
+    width:80%;
+    height:5vh;
+    display:flex;
+    align-self: self-start;
+    margin-left: 35px;
+    margin-bottom: -10px;
+}
+h1{
+    text-shadow: 2px 2px aqua;
+}
+form{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}

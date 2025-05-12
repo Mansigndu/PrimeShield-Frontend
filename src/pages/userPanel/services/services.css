@@ -1,0 +1,112 @@
+.servicesbigbox{
+    height:100vh;
+    width:100%;
+    background-color: white;
+    text-align: center;
+
+}
+.servicesh3{
+    color:skyblue;
+
+}
+.servicesbox2{
+    height:40vh;
+    width:100%;
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: row;
+}
+.leftservices{
+    height:30vh;
+    width:20%;
+    background-color:lightcyan; 
+    margin-left: 10%;
+
+}
+.centerservices{
+    height:30vh;
+    width:20%;
+    background-color:lightcyan;
+    /* background-color: blue; */
+    margin-left: 10%;
+}
+.rightservices{
+    height:30vh;
+    width:20%;
+    background-color:lightcyan;
+    /* background-color: brown; */
+    margin-left: 10%;
+}
+.servicebox3{
+    height:40vh;
+    width:100%;
+    /* background-color: blueviolet; */
+    display:flex;
+    flex-direction: row;
+}
+.left1services{
+    height:30vh;
+    width:20%;
+    background-color:lightcyan;
+/* background-color: chartreuse; */
+    margin-left: 10%;
+}
+.center1services{
+    height:30vh;
+    width:20%;
+    background-color:lightcyan;
+    /* background-color:pink; */
+    margin-left: 10%;
+}
+.right1services{
+    height:30vh;
+    width:20%;
+    background-color:skyblue;
+    /* background-color:magenta; */
+    margin-left: 10%;
+}
+.postion
+{
+    position: relative;
+background-color: rgba(59, 159, 192, 0.637);
+color: white;
+    transition: 0.2s;
+}
+.postion:hover
+{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+#ser-t
+{
+    text-shadow: none;
+}
+.ioo
+{
+    position: absolute;
+    left: 120px;
+    top: 360px;
+border-radius: 20px;
+    color: white;
+    padding-inline: 20px;
+    transition: 0.3s ease-in-out ;
+}
+.ioo:hover
+{
+    scale: 1.5;
+    border-radius: 20px; 
+ padding-inline: 20px;
+color: white;
+ background-color: blue;
+  
+}
+.no
+{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.ii:hover
+{
+    rotate: 90deg;
+    transform: 1s;
+}

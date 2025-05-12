@@ -1,0 +1,45 @@
+.bigmember{
+    height:100vh;
+    width:100%;
+ 
+    margin-top: 7vh;
+    /* background-color: black; */
+    
+}
+.hm{
+    color:skyblue;
+    text-align: center;
+}
+.hh{
+    text-align: center;
+    padding: 20px;
+}
+.insidebox{
+    height:60vh;
+    width:100%;
+/* background-color: aqua; */
+display: flex;
+flex-direction: row;
+
+margin-top: 5vh;
+
+}
+ .leftmember{ 
+     
+    margin-left: 8%; 
+    width: 28%;
+    box-shadow: 0px 5px 19px 1px rgba(36,11,12,.15);
+    border-radius: 20px;
+} 
+.rightmember{
+    margin-left: 8%;
+    width: 28%;
+    box-shadow: 0px 5px 19px 1px rgba(36,11,12,.15);
+    border-radius: 20px;
+}
+.centermember{
+    margin-left: 8%;
+    width: 28%;
+    box-shadow: 0px 5px 19px 1px rgba(36,11,12,.15);
+    border-radius: 20px;
+}

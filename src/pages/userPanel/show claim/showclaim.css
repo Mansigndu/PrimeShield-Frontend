@@ -1,0 +1,65 @@
+.cardInsurance{
+
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+}
+.insideContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(268px,auto));
+   gap: 0.9rem;
+margin-left: 280px;
+    
+
+   
+
+
+    
+ } 
+ .l-img
+ {
+    border-radius: 50%;
+ }
+ .leftInsurance{
+   
+    width:60%;
+    
+    box-shadow: 2px 1px 3px 2px lightgray;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    gap: 1rem;
+  
+}
+.q
+{
+    text-align: center;
+}
+.InsuranceButton
+{
+    text-align: center;
+  margin-left: 90px;
+  background-color: skyblue;
+   color: black;
+   border-radius: 12px;
+   
+   height: 5vh; 
+
+}
+.Card1{
+    height:20vh; 
+    
+
+   
+    
+    
+ }
+.PolicyButton:hover{
+    background-color: aquamarine;
+    text-align: center;
+} 
+

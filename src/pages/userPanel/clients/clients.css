@@ -1,0 +1,54 @@
+.clientsbigbox{
+    height:100vh;
+    width:100%;
+ 
+ 
+    
+
+}
+.clients1{
+    color:skyblue;
+    text-align: center;
+}
+.clients2{
+    text-align: center;
+}
+.smallclientbox{
+    height:60vh;
+    width:100%;
+    /* background-color: black; */
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.leftclientbox{
+    height:40vh;
+    width:22%;
+    background-color:skyblue;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.centerclientbox{
+    height:40vh;
+    width:22%;
+    background-color:skyblue;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.rightclientbox{
+    height:40vh;
+    width:22%;
+    background-color:skyblue;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.clientbox1{
+    color:black;
+    text-align: center;
+
+}
+.clientbox2{
+    text-align: center;
+}

@@ -1,0 +1,97 @@
+/* Container for the footer */
+.footerbox {
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Left side containing the logo */
+.leftfooter {
+    height: 100%;
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Center section containing emails and contact info */
+.centerfooter {
+    height: 100%;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+/* Right section containing address */
+.rightfooter {
+    height: 100%;
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* General footer sections */
+h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+p {
+    margin: 5px 0;
+}
+
+/* Make the footer responsive */
+@media (max-width: 768px) {
+    .footerbox {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .leftfooter,
+    .centerfooter,
+    .rightfooter {
+        width: 100%;
+        max-width: none;
+        text-align: center;
+    }
+
+    .centerfooter {
+        padding-left: 0;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footerbox {
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+}

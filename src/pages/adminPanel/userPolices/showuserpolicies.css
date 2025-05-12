@@ -1,0 +1,12 @@
+.custom-confirm-button,
+.custom-cancel-button {
+  padding: 10px 15px;
+  line-height: 1;
+  /* border: 2px solid red; */
+  font-size: 15px;
+}
+
+.custom-confirm-button:hover,
+.custom-cancel-button:hover{
+    border: none;
+}

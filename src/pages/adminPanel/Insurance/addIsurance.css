@@ -1,0 +1,24 @@
+.AddInsurancecontainer{
+    height: 100vh;
+    background-color: aqua;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Insuranceform{
+    height:75vh;
+    width:30%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+}
+.h1{
+    text-shadow: 2px 2px aquamarine;
+}
+.button:hover{
+    color:black;
+}
+.button{
+    background-color: rgb(136, 148, 144);
+}

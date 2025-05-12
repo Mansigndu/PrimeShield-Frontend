@@ -1,0 +1,165 @@
+
+
+
+
+
+
+
+
+
+
+/* General Styles */
+.blogbox {
+    padding: 20px;
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+.blog1 {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+}
+.rightblog  img
+{
+    border-radius: 20px;
+}
+
+.blog2 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.blogbigbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.leftblog, .centerblog, .rightblog {
+    width: 30%;
+}
+.centerblog img
+{
+    border-radius: 20px;
+}
+.leftblog img
+{
+    border-radius: 20px;
+}
+.leftblog,.centerblog,.rightblog
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.left1blog h4 {
+    font-size: 1.5rem;
+    color: #444;
+  
+    font-weight: 500;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .blog2 {
+        font-size: 1.8rem;
+    }
+
+    .blogbigbox {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leftblog, .centerblog, .rightblog {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .left1blog h4 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog1 {
+        font-size: 1rem;
+    }
+
+    .blog2 {
+        font-size: 1.5rem;
+    }
+
+    .left1blog h4 {
+        font-size: 1rem;
+    }
+
+    .blogbigbox {
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .blogbox{
+    height:auto;
+    width:100%;
+    /* background-color:gray; */
+    /* margin-bottom: 2vw; */ 
+/* } 
+.blog1{
+    text-align: center;
+    color:skyblue;
+}
+.blog2{
+    text-align: center;
+}
+.leftblog{
+    height:60vh;
+    width:25%;
+    background-image: url('./public/images/blog-1.jpg');
+    
+    margin-left: 6%;
+}
+.left1blog{
+    height:60vh;
+    width:25%;
+}
+.H{
+    text-align: center;
+}
+.centerblog{
+    height:60vh;
+    width:25%;
+    background-image: url(./public/images/blog-2.jpg);
+    margin-left: 6%;
+}
+.blogbigbox{
+    height:60vh;
+    width:100%;
+    /* background-color: black; */
+    /* display: flex; */
+    /* flex-direction: row; */
+/* } */
+/* .rightblog{ */
+    /* height:60vh;
+    width: 25%;
+    background-image: url(./public/images/blog-3.jpg);
+    margin-left: 6%;
+} */

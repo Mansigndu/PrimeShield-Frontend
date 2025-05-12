@@ -1,0 +1,102 @@
+/* Container holding all cards */
+.policy-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    padding: 50px 20px;
+    background-color: #f9fafb;
+    min-height: 100vh;
+  }
+  
+  /* Each individual card */
+  .policy-card {
+    background: #ffffff;
+    border-radius: 16px;
+    width: 320px;
+    padding: 24px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .policy-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* Image styling */
+  .policy-image {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #e5e7eb;
+    margin-bottom: 16px;
+  }
+  
+  /* Text styling */
+  .policy-title {
+    font-size: 20px;
+    text-transform: capitalize;
+
+    font-weight: 600;
+    color: #1e3a8a;
+    margin: 0 0 6px;
+  }
+  
+  .policy-type {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 12px;
+  }
+  
+  .policy-details p {
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #374151;
+    margin: 4px 0;
+    text-align: center;
+  }
+  
+  .policy-description {
+    font-size: 13px;
+    color: #6b7280;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Button */
+  .policy-button {
+    width: 100%;
+    padding:  0px 10px;
+    background-color: #2563eb;
+    color: #ffffff;
+    /* font-weight: 500; */
+    line-height: 1;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .policy-button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .policy-button-link {
+    width: 100%;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .policy-card {
+      width: 90%;
+    }
+  }
+  
