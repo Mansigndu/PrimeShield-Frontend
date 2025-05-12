@@ -35,7 +35,7 @@ useEffect(()=>{
                     claim.map((data)=>(
                         <div className="leftInsurance">
                   
-                        <img src="images/testimonial-1.jpg" alt="" width={100} height={100}  className='l-img' />
+                        <img src="/images/testimonial-1.jpg" alt="" width={100} height={100}  className='l-img' />
                    
                     <h4>{data.cancelForType == "Insurance1"? "Insurance":"Policy"}</h4>
                     <h5>Amount : {data.claimAmount}</h5>
