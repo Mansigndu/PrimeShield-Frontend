@@ -12,7 +12,7 @@ const ProfileContext = createContext()
 
     async function fetchProfileData() {
         try {
-            const Response = await axios.get(' http://localhost:2025/getSpecificUser',{
+            const Response = await axios.get('https://primeshield-backend.onrender.com/getSpecificUser',{
                 headers:{
                     Authorization:`Bearer ${authentication.token}`
                 }

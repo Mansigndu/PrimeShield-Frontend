@@ -16,7 +16,7 @@ const ExpandClaimForm = () => {
     useEffect(() => {
         async function fetchData() {
             try {
-                const response = await axios.get(`http://localhost:2025/policyInsurance/${id}`);
+                const response = await axios.get(`https://primeshield-backend.onrender.com/policyInsurance/${id}`);
                 setClaimAmount(response.data.coverage_amount || response.data.InsurancePrice);
                 response.data.policy_type ? setCancelForType("policy") : setCancelForType("Insurance1");
             } catch (error) {
@@ -57,7 +57,7 @@ const ExpandClaimForm = () => {
                 const authentication = JSON.parse(userDetail);
 
                 const response = await axios.post(
-                    `http://localhost:2025/expandclaim/${id}`,
+                    `https://primeshield-backend.onrender.com/expandclaim/${id}`,
                     claimData,
                     {
                         headers: {

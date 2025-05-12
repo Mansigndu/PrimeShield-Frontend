@@ -12,7 +12,7 @@ function Claims() {
 
   useEffect(() => {
     async function fetchClaims() {
-      const response = await axios.get('http://localhost:2025/claimAttain');
+      const response = await axios.get('https://primeshield-backend.onrender.com/claimAttain');
       console.log(response);
       setRows(response.data);
     }
@@ -22,7 +22,7 @@ function Claims() {
   const handleUpdate = async (claimId, status) => {
     try {
       // Send PUT request to backend to update the claim status
-      const response = await axios.put(`http://localhost:2025/updateClaimStatus/${claimId}`, {
+      const response = await axios.put(`https://primeshield-backend.onrender.com/updateClaimStatus/${claimId}`, {
         status,
       });
       console.log("Updated claim status:", response.data);

@@ -28,7 +28,7 @@ function Contact() {
         e.preventDefault();
 
         try {
-            const response = await axios.post('http://localhost:2025/joinreviews', formData,{
+            const response = await axios.post('https://primeshield-backend.onrender.com/joinreviews', formData,{
                 headers:{
                     Authorization:`Bearer ${token}`
                 }

@@ -36,7 +36,7 @@ function Register() {
 
     try {
 
-      const response = await axios.post('http://localhost:2025/addUser', formData);
+      const response = await axios.post('https://primeshield-backend.onrender.com/addUser', formData);
 
 
       toast.success('Registration successful');

@@ -9,7 +9,7 @@ function Card() {
     useEffect(() => {
         async function fetchInsuranceData() {
             try {
-                const response = await axios.get(`http://localhost:2025/insget`)
+                const response = await axios.get(`https://primeshield-backend.onrender.com/insget`)
                 setInsData(response.data)
             } catch (error) {
                 console.log(error)

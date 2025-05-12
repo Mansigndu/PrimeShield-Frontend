@@ -15,7 +15,7 @@ function Profile() {
   useEffect(() => {
     async function fetch() {
       try {
-        const response = await axios.get("http://localhost:2025/formuserDetails", {
+        const response = await axios.get("https://primeshield-backend.onrender.com/formuserDetails", {
           headers: {
             Authorization: `bearer ${token}`
           }

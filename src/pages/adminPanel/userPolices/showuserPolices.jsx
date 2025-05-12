@@ -14,7 +14,7 @@ function UserPolicies(){
   const[row,setRow] = useState([])
   useEffect(() =>{
     async function fetchUserPolicy() {
-      const response = await axios.get('http://localhost:2025/attachuserpolicy')
+      const response = await axios.get('https://primeshield-backend.onrender.com/attachuserpolicy')
       console.log(response)
       setRow(response.data)
     }
@@ -34,7 +34,7 @@ function UserPolicies(){
     
       if (result.isConfirmed) {
         try {
-          const response = await axios.delete(`http://localhost:2025/deleteuserPolicy/${id}`);
+          const response = await axios.delete(`https://primeshield-backend.onrender.com/deleteuserPolicy/${id}`);
           // toast.success(response.data);
           setRow((prev) => prev.filter((item) => item._id !== id));
         } catch (error) {

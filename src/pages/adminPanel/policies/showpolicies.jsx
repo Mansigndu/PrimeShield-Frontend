@@ -17,7 +17,7 @@ function Policies() {
   useEffect(() => {
     async function fetchPolicy() {
       try {
-        const response = await axios.get('http://localhost:2025/retrivePolicy');
+        const response = await axios.get('https://primeshield-backend.onrender.com/retrivePolicy');
         
         const transformedData = response.data.map(item => ({
           _id: item._id,
@@ -54,7 +54,7 @@ function Policies() {
 
     if (result.isConfirmed) {
       try {
-        await axios.delete(`http://localhost:2025/policyDelete/${id}`);
+        await axios.delete(`https://primeshield-backend.onrender.com/policyDelete/${id}`);
         setRow((prev) => prev.filter((item) => item._id !== id)); // Remove deleted policy from table
       } catch (error) {
         console.log(error);
@@ -79,7 +79,7 @@ function Policies() {
     try {
       const { _id, policy_name, policy_type, coverage_amount, premium_amount } = currentPolicy;
 
-      const response = await axios.put(`http://localhost:2025/updatePolicy/${_id}`, {
+      const response = await axios.put(`https://primeshield-backend.onrender.com/updatePolicy/${_id}`, {
         policy_name,
         policy_type,
         coverage_amount,

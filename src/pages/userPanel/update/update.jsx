@@ -29,7 +29,7 @@ function Update() {
     useEffect(() => {
         async function fetchuser(id) {
             try {
-                const response = await axios.get(`http://localhost:2025/getUser/${id}`)
+                const response = await axios.get(`https://primeshield-backend.onrender.com/getUser/${id}`)
                 console.log(response)
                 setUser(response.data)
 
@@ -55,7 +55,7 @@ function Update() {
 
         try {
 
-            const response = await axios.put(`http://localhost:2025/updateUser/${id}`, formData, {
+            const response = await axios.put(`https://primeshield-backend.onrender.com/updateUser/${id}`, formData, {
                 headers: { 'Content-Type': 'application/json' },
             });
 

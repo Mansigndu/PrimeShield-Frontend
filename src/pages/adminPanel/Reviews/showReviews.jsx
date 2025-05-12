@@ -12,7 +12,7 @@ function Review(){
 
   useEffect(() =>{
     async function fetchReview() {
-      const response = await axios.get('http://localhost:2025/reviewsgain')
+      const response = await axios.get('https://primeshield-backend.onrender.com/reviewsgain')
       console.log(response)
       setRow(response.data)
     
@@ -38,7 +38,7 @@ function Review(){
       });
       if (result.isConfirmed) {
             try {
-              const response = await axios.delete(`http://localhost:2025/deleteReview/${id}`);
+              const response = await axios.delete(`https://primeshield-backend.onrender.com/deleteReview/${id}`);
               console.log("Delete Response:", response.data);
       
               setRow((prev) => prev.filter((item) => item._id !== id));

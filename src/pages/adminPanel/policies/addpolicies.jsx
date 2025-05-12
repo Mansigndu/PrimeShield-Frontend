@@ -30,7 +30,7 @@ function AddPolicies() {
     const handleSubmit = async(e)=>{
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:2025/addpolicy',formData,{
+            const response = await axios.post('https://primeshield-backend.onrender.com/addpolicy',formData,{
                 headers:{
                     Authorization:`Bearer ${token}`
                 }

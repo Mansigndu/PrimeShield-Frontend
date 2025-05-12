@@ -17,7 +17,7 @@ function Insurance() {
   useEffect(() => {
     async function fetchInsurance() {
       try {
-        const response = await axios.get('http://localhost:2025/insGet');
+        const response = await axios.get('https://primeshield-backend.onrender.com/insGet');
         console.log(response);
         setRow(response.data);
       } catch (error) {
@@ -44,7 +44,7 @@ function Insurance() {
 
     if (result.isConfirmed) {
       try {
-        const response = await axios.delete(`http://localhost:2025/deleteInsu/${id}`);
+        const response = await axios.delete(`https://primeshield-backend.onrender.com/deleteInsu/${id}`);
         setRow((prev) => prev.filter((item) => item._id !== id));
       } catch (error) {
         console.log(error);
@@ -65,7 +65,7 @@ function Insurance() {
 
   async function handleSaveChanges() {
     try {
-      const response = await axios.put(`http://localhost:2025/updateInsurance/${insuranceDetails._id}`, insuranceDetails);
+      const response = await axios.put(`https://primeshield-backend.onrender.com/updateInsurance/${insuranceDetails._id}`, insuranceDetails);
       setRow((prev) =>
         prev.map((item) =>
           item._id === insuranceDetails._id ? { ...item, ...insuranceDetails } : item

@@ -9,7 +9,7 @@ function PolicyCard() {
     useEffect(() => {
         async function fetchPolicyData() {
             try {
-                const response = await axios.get(`http://localhost:2025/retrivePolicy`)
+                const response = await axios.get(`https://primeshield-backend.onrender.com/retrivePolicy`)
                 setPoliData(response.data)
             } catch (error) {
                 console.error(error)

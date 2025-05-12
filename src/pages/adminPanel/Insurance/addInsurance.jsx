@@ -25,7 +25,7 @@ function AddInsurance() {
     const handleSubmit = async(e)=>{
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:2025/post', formData);
+            const response = await axios.post('https://primeshield-backend.onrender.com/post', formData);
             console.log(response.data)
             // localStorage.setItem('userInfo',JSON.stringify(response.data))
             toast.success('Insurance Add Successful');

@@ -10,7 +10,7 @@ const [claim ,setClaim] = useState([])
 useEffect(()=>{
     async function fetchData() {
         try {
-            const response =await axios.get('http://localhost:2025/claimAttain')
+            const response =await axios.get('https://primeshield-backend.onrender.com/claimAttain')
             console.log(response)
             setClaim(response.data)
             

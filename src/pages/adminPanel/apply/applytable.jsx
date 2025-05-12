@@ -14,7 +14,7 @@ function Apply() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await axios.get('http://localhost:2025/formGet');
+        const response = await axios.get('https://primeshield-backend.onrender.com/formGet');
         console.log(response);
         setRow(response.data);
       } catch (error) {
@@ -27,7 +27,7 @@ function Apply() {
   // Handle updating the status of a form
   async function handleUpdate(id, status) {
     try {
-      const response = await axios.put(`http://localhost:2025/updateStatus/${id}`, { status });
+      const response = await axios.put(`https://primeshield-backend.onrender.com/updateStatus/${id}`, { status });
   
       // Update the row status locally after successful API call
       setRow((prevRows) =>
@@ -59,7 +59,7 @@ function Apply() {
     if (result.isConfirmed) {
       try {
         // Make the delete request
-        await axios.delete(`http://localhost:2025/deleteForm/${id}`);
+        await axios.delete(`https://primeshield-backend.onrender.com/deleteForm/${id}`);
 
         // Remove the deleted form from the state
         setRow((prevRows) => prevRows.filter((row) => row._id !== id));

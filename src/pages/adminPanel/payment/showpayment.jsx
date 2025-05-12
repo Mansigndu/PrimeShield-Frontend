@@ -16,7 +16,7 @@ function Payment() {
   useEffect(() => {
     async function fetchPayments() {
       try {
-        const response = await axios.get("http://localhost:2025/paymentsfetch");
+        const response = await axios.get("https://primeshield-backend.onrender.com/paymentsfetch");
         console.log("Fetched Payments:", response.data);
         setRow(response.data);
       } catch (error) {
@@ -46,7 +46,7 @@ function Payment() {
 
     if (result.isConfirmed) {
       try {
-        const response = await axios.delete(`http://localhost:2025/deletePayment/${id}`);
+        const response = await axios.delete(`https://primeshield-backend.onrender.com/deletePayment/${id}`);
         console.log("Delete Response:", response.data);
 
         setRow((prev) => prev.filter((item) => item._id !== id));

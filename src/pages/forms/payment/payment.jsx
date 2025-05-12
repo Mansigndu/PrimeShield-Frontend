@@ -23,7 +23,7 @@ const PaymentForm = () => {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await axios.get(`http://localhost:2025/formGetById/${id}`);
+        const response = await axios.get(`https://primeshield-backend.onrender.com/formGetById/${id}`);
         console.log(response);
         setFormData({
           amount: response.data.ApplyFor.coverage_amount || response.data.ApplyFor.InsurancePrice, // Adjust based on your response
@@ -55,7 +55,7 @@ const PaymentForm = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post(`http://localhost:2025/payments/${id}`, formData, {
+      const response = await axios.post(`https://primeshield-backend.onrender.com/payments/${id}`, formData, {
         headers: {
           Authorization: `Bearer ${token}`
         }

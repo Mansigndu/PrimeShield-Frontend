@@ -37,7 +37,7 @@ function SubmitForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post(`http://localhost:2025/handleForm/${id}`, formData,{
+      const response = await axios.post(`https://primeshield-backend.onrender.com/handleForm/${id}`, formData,{
         headers:{
           Authorization:`Bearer ${token}`
         }
