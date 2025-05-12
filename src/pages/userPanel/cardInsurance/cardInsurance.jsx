@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import './cardinsurance.css'
+import './cardInsurance.css'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
 
