@@ -15,7 +15,7 @@ function AdminNav() {
     <>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <img src={"/public/images/navlogo.png"} alt="" srcset="" width={"180px"} height={"100px"}/>
+          <img src={"/images/navlogo.png"} alt="" srcset="" width={"180px"} height={"100px"}/>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
